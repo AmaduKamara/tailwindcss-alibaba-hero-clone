@@ -7,18 +7,81 @@
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
   </head>
   <body>
-    <header class="bg-gray-800 py-10 px-24">
-      <div class="flex justify-between">
-        <a class="text-white" href="#">Alibaba.com</a>
-        <div class="flex gap-6">
+    <header class="bg-gray-800 pt-10 pb-[100px] px-24 border-b border-b-2">
+      <div class="flex justify-between items-center">
+        <a class="text-white font-bold text-2xl" href="#">Alibaba.com</a>
+        <div class="flex gap-6 items-center">
           <div><p class="text-white">Welcome to:</p></div>
           <div><p class="text-white">English SLL</p></div>
           <div><a class="text-white" href="#">Sign in</a></div>
-          <div><button class="text-white">Create account</button></div>
+          <div>
+            <button
+              class="text-white bg-orange-500 py-2 px-6 font-bold rounded-full"
+            >
+              Create account
+            </button>
+          </div>
         </div>
       </div>
 
-      <div></div>
+      <div class="flex justify-between mt-5">
+        <div>
+          <ul class="flex gap-6">
+            <li class="text-white cursor-pointer hover:border-b hover:pb-2">
+              All Categories
+            </li>
+            <li class="text-white cursor-pointer hover:border-b hover:pb-2">
+              Featured Selections
+            </li>
+            <li class="text-white cursor-pointer hover:border-b hover:pb-2">
+              Order protechtions
+            </li>
+          </ul>
+        </div>
+        <div>
+          <ul class="flex gap-6">
+            <li class="text-white cursor-pointer hover:border-b hover:pb-2">
+              Buyer Central
+            </li>
+            <li class="text-white cursor-pointer hover:border-b hover:pb-2">
+              Help Center
+            </li>
+            <li class="text-white cursor-pointer hover:border-b hover:pb-2">
+              App & Extension
+            </li>
+            <li class="text-white cursor-pointer hover:border-b hover:pb-2">
+              Become a supplier
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="mt-24">
+        <a href="#" class="text-white">Learn about Alibaba.com</a>
+
+        <h1 class="text-white mt-6 text-5xl font-[500]">
+          The leading B2B ecommerce platform for <br />
+          global trade
+        </h1>
+
+        <div
+          class="bg-white w-1/2 py-1 pl-6 pr-1 flex justify-between mt-8 rounded-full"
+        >
+          <input type="text" placeholder="Macbook computer" class="focus:outline-none w-full" />
+          <button class="text-white bg-orange-500 py-3 px-6 rounded-full">
+            Search
+          </button>
+        </div>
+
+        <div class="flex gap-6 items-center mt-8">
+          <p class="text-white">Frequently searched:</p>
+          <div class="flex gap-8">
+            <div class="text-white border py-1 px-3 rounded-full">Iphones 15 pro max</div>
+            <div class="text-white border py-1 px-3 rounded-full">Watch</div>
+            <div class="text-white border py-1 px-3 rounded-full">Women's Intimate</div>
+          </div>
+        </div>
+      </div>
     </header>
   </body>
 </html>
